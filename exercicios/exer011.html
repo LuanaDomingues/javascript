@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            background-color: rgb(209, 240, 210);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        #nac {
+            width: 350px;
+        }
+
+        div {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Em que país você mora?</h1>
+    <p>
+        <input type="text" name="nac" id="nac">
+        <input type="button" value="Enviar" id="botao" onclick="clicar()">
+    </p>
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function clicar() {
+            var nac1 = window.document.getElementById('nac')
+            var pais = (nac1.value)
+            var resul = window.document.getElementById('res')
+
+            if(pais =='Brasil') {
+                resul.innerHTML = `<p>Se você mora na(o)<strong> ${pais}</strong>, você é <strong>BRASILEIRO</strong></p>`
+            }else{
+                resul.innerHTML = `<p>Se você mora na(o) <strong>${pais}</strong>, você é <strong>ESTRANGEIRO</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>
