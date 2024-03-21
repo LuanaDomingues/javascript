@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:rgb(89, 129, 143);
+}
+
+h1 {
+    font-size: 2.8em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+div {
+    background-color: white;
+    margin: auto;
+    width: 500px;
+}
+
+#text {
+    padding: 20px;
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+#idd {
+    width: 100px;
+}
+
+#imagem {
+    text-align: center;
+    padding: 20px;
+}
+
+#botao {
+    padding: 5px;
+    width: 100px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+}
