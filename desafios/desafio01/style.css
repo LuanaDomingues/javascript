@@ -11,10 +11,20 @@ body {
 }
 
 h1 {
-    font-size: 2.3em;
+    font-size: 2.8em;
     text-align: center;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+#tx {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 2.2em;
+    padding-bottom: 20px;
+
+
 }
 
 div {
@@ -28,6 +38,7 @@ div {
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bolder;
+    font-size: 1.8em;
 }
 
 #imagem {
@@ -37,7 +48,9 @@ div {
 }
 
 img {
-    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 footer {
     color: white;
