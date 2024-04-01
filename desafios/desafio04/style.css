@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:rgb(228, 102, 198);
+}
+
+h1 {
+    font-size: 2.8em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+div {
+    background-color: white;
+    margin: auto;
+    width: 500px;
+}
+
+#number{
+    padding: 20px;
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+#ini {
+    width: 150px;
+}
+
+#fim {
+    width: 150px;
+}
+
+#passo {
+    width: 150px;
+}
+
+#botao {
+    padding: 5px;
+    width: 100px;
+}
+
+#text {
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+}
